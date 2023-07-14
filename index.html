@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elena's Personal Site</title>
+    <!-- content in between "tittle" element would be represented on the tab bar -->
+</head>
+<body>
+    <table cellspacing="20">
+        <tr>
+            <td>
+                <img src="images/5c27a891be4960173958 (1)-modified.png" alt="my profile picture">
+                <!-- img is a self-closing element but what makes it work is the attributes in it
+                    src_source of the image: it goes according to the level (yk what i mean lol)
+                    alt_alternative text: displays when the browser cant upload the image
+                -->
+            </td>
+            <td>
+                <h1>Elena Nguyen</h1>
+                <!-- Anatomy: openTag(attributes)_content_closeTag-->
+                <p><em><strong>Alumni</strong> of a <a href="https://tip.edu.vn/top-6-truong-thpt-hang-dau-tai-me-linh-ha-noi/">notorious high school</a></em></p>
+                <!-- The difference between i vs em, b vs strong. The more preferable choices are em and strong -->
+                <!-- Anchor element anatomy: openTag(attribute href_hyperlink reference: link address)_linkText(is designed defaultly)_closeTag
+                Can also make the website have multiple pages instead of just one
+                -->
+                <p>A soon-to-be college student. Detail-oriented, eager-to-learn, and conscientious.</p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <!-- Self-closing element -->
+    <h3>Education</h3>
+    <ul>
+        <li>Got a 7.5 in IELTS Test</li>
+        <li>Graduated with GPA in top 30</li>
+        <li>Always in top 10 of every contest in high school</li>
+    </ul>
+    <!-- An unorder list -->
+    <hr>
+    <h3>My hobbies</h3>
+    <ol>
+        <li>Reading</li>
+        <li>Watching movies and TV shows</li>
+        <li>Learning new languages</li>
+    </ol>
+    <!-- An order list -->
+    <hr>
+    <h3>Experience</h3>
+    <table> 
+        <thead>
+            <th>Date</th>
+            <th>Experience</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2022</td>
+                <td>Psychology Online Course by Paul Bloom - Professor at Yale University</td>
+            </tr>
+            <tr>
+                <td>2022-2023</td>
+                <td>Learnt English and Got the IELTS Degree</td>
+            </tr>
+            <tr>
+                <td>2023-</td>
+                <td>Learning Spanish and Web Development</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- Table structure:
+        1. Table head, body, and foot: thead, tbody, tfoot have different default design
+        2. Table row: tr
+        3. Table head data and Table date: th and td
+         Notes: table element's attributes are deprecated and they are for styling
+    -->
+    <hr>
+    <h3>Skills</h3>
+    <table cellspacing="10">
+        <tr>
+            <td>
+                <td>English</td>
+                <td>⭐⭐⭐⭐</td>
+            </td>
+            <td>
+                <td>Math</td>
+                <td>⭐⭐⭐⭐</td>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <td>Web Development</td>
+                <td>⭐⭐⭐</td>
+            </td>
+            <td>
+                <td>Spanish</td>
+                <td>⭐⭐</td>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Contact me</h3>
+    <ul>
+        <li><a href="https://www.facebook.com/">Facebook</a></li>
+        <li><a href="https://instagram.com/_elennaa77?igshid=MjEwN2IyYWYwYw==">Instagram</a></li>
+        <li><a href="form.html">Email</a></li>
+    </ul>
+</body>
+</html>
